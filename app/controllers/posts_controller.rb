@@ -35,3 +35,4 @@ private
     params.require(:post).permit(:title, :desription, :post_status, :author_id)
   end
 end
+#the result
