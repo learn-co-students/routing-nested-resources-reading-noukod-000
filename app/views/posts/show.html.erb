@@ -1,2 +1,4 @@
-<h1><%= @post.title %></h1>
-<p><%= @post.description %></p>
+Information About the Post
+<%= render partial: "authors/author", locals: {post_author: @post.author} %>
+<%= @post.title %>
+<%= @post.content %>
